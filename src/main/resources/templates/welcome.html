@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>welcome</title>
+</head>
+<th:block th:include="baseTemplate.html :: csrfHeader"></th:block>
+<body>
+<h1>You are successfully registered <span th:text="${userName}"></span></h1>
+<h2>Please login by clicking on <a href="/login" target="_self">click here</a></h2>
+</body>
+</html>
